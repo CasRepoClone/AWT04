@@ -1,0 +1,10 @@
+public class Solution {
+    public int SingleNumber(int[] nums) {
+        foreach (int number in nums)
+        if (nums.count(number) == 1)
+        {
+            return number
+        }
+        else{}
+    }
+}
